@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+      
+
+        }
+        footer{
+            display: flex;
+            justify-content: space-between;
+            background-color: #F2F2F2;
+            color: #8F9BB9;
+            position: absolute;
+            bottom: 0px;
+            width: 100%;
+            left: 0;
+        }
+        ul{
+            list-style-type: none;
+            font-style: normal;
+            display: flex;
+            
+            
+        }
+        li{
+            margin-right: 8px;
+            margin-left: 10px;
+            
+        }
+         
+        a{
+            text-decoration: none;
+            color: #8F8F8F;
+            display: flex;
+            flex-direction: row;
+           
+        }
+        
+       
+        .right-header{
+           padding-right:24px;
+        }
+        
+        .left-header{
+            padding-left: 15px;
+           
+        }
+       .sign_in{
+        border: 1px solid #4485F3 ;
+           color: white;
+           line-height: 28px;
+           font-weight: bold;
+           background-color: #4485F3;
+           border-radius: 2px;
+           width: 60px;
+           justify-content: center;
+       }
+       
+       .logo{
+           display: flex;
+           justify-content:center;
+           flex-direction: row;
+          
+        }
+        .google_logo{
+            display: flex;
+            margin-top: 7%;
+            margin-left: 1%;
+            margin-bottom: 30px;
+           
+        }
+        .search{
+            text-align: center;
+            margin-top: 5px;
+            
+        }
+        
+        .button{
+            text-align: center;
+            padding-right: 4px;
+        }
+        #search_input{
+            width: 560px;
+            height: 40px;
+            border-radius: 15px ;
+            border: 1px solid #5F6368;
+        }
+        .button_google{
+            padding: 0 16px;
+            border: 1px solid #ECECEC;
+            min-width: 54px;
+            color: #5F6368;
+            margin: 11px 4px;
+            line-height: 27px;
+            background-color: #F3F3F3;
+            border: none;
+            text-align: center;
+            cursor: pointer;
+        }
+        .sign_in a{
+          color: white;
+          text-align: center;
+          margin-left: 4px;
+       }
+       .voicelogo{
+           position: relative;
+           left: 1195px;
+           top:-35px;
+       }
+       
+       .right-footer li{
+           margin-left: 30px;
+           position: relative;
+           right:50px;
+       }
+    </style>
+    
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="left-header">
+                <ul>
+                    <li style="padding-top:4px;" ><a href="#">About</a></li>
+                    <li style="padding-top:4px;" ><a href="#">Store</a></li>
+                </ul>
+               </div>
+             <div class="right-header">           
+                <ul>
+                    <li style="padding-top: 4px;"> <a href="#">Gmail</a>
+                    </li>
+                    <li style="padding-top: 4px;"><a href="#">Images</a></li>
+                    <li><a href="#"><img class="image"src="https://developer.android.com/distribute/google-play/resources/icon-design-specifications/images/rounded-corners-uniformed.png" alt="application" width="30px" height="30px"></a></li>
+                    <li class="sign_in" ><a class="sign_in_a;" href="google.com">Sign In</a></li>
+                </ul>
+             </div>
+        </div>
+    </header>
+        <!-- Header End -->
+
+        <!-- Logo -->   
+     <div class="logo">
+
+     
+
+       <div class="google_logo"> <img  src="https://web.archive.org/web/20191201000239im_/https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo" width="272" 
+        height="92"> </div>
+</div>
+ 
+<!-- LogoEnd -->
+
+<!-- Search  -->
+<main>
+
+
+<div class="search">
+    <input id="search_input"type="search">
+    <a href="#"><img src="/css/voicelogo.png" alt="voice button" width="30px" height="30px" class="voicelogo"></a>
+    
+</div>
+<!-- Search End -->
+
+ <!-- Buton -->
+<div class="button">
+    <button class="button_google">Google Search</button>
+    <button class="button_google">I'm Feeling Lucky</button>
+
+</div>
+</main>
+<!--   Button End -->
+
+<!-- Footer -->
+
+<footer>
+
+    <div class="left-footer">
+        <ul>
+            <li style="padding-top:4px;" ><a href="#">Adversiting</a></li>
+            <li style="padding-top:4px;" ><a href="#">Business</a></li>
+            <li style="padding-top:4px;" ><a href="#">How Search Works</a></li>
+        </ul>
+       </div>
+       <div class="right-footer">
+        <ul>
+            <li style="padding-top:4px;" ><a href="#">Privacy</a></li>
+            <li style="padding-top:4px;" ><a href="#">Terms</a></li>
+            <li style="padding-top:4px;" ><a href="#">Settings</a></li>
+        </ul>
+       </div>
+
+
+
+
+</footer>
+
+
+
+
+
+
+</body>
+</html>
