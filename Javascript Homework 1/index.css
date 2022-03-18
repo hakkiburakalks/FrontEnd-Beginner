@@ -1,0 +1,27 @@
+#kodluyoruz-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    color: orange;
+    font-size: 64px;
+}
+
+body{
+    background-color: #23242C;
+}
+
+#info{
+    display: flex;
+    justify-content: center;
+    
+    color: orange;
+    font-size: 48px;
+}
+
+#date-html{
+    display: flex;
+    justify-content: center;
+    
+    color: orange;
+    font-size: 24px;
+}
